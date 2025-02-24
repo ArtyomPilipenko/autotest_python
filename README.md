@@ -11,8 +11,9 @@
 
 ## Тест-кейсы, которые автоматизировали
 * Создание покемона `POST /pokemons`
-* Смена имени покемона `PUT /pokemons`
+* Смена имени и фото покемона `PUT /pokemons`
 * Поймать покемона в покебол `POST /trainers/add_pokeball`
+* Отправить в нокаут покемона `POST /pokemons/knockout`
 * Проверить ответ метода `GET /trainers`
 
 Ожидаемый ответ: 
@@ -26,7 +27,7 @@
 2. Используется библиотека Requests
 3. Параметризированные тесты с использованием декоратора
 
-![image](https://raw.githubusercontent.com/German-D/Python-Pytest-Requests/main/static/pytest-api.png)
+![image]()
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
@@ -64,4 +65,4 @@ pytest tests/test_pokemon.py
 
 ## Автор
 
-Герман Дольников ([@dolnikov](https://t.me/dolnikov))
+Герман Дольников ([@artyom_pilipenko](https://t.me/artyom_pilipenko))
